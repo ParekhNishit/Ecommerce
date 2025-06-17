@@ -37,8 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'category',
     'accounts',
+=======
+    'category'
+>>>>>>> bd465a1fa3ab93d213167399424e2fca0090747d
 ]
 
 MIDDLEWARE = [
@@ -70,8 +74,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'greatkart.wsgi.application'
 
+<<<<<<< HEAD
 AUTH_USER_MODEL = 'accounts.Account'
 
+=======
+>>>>>>> bd465a1fa3ab93d213167399424e2fca0090747d
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
