@@ -57,18 +57,11 @@ class Account(AbstractBaseUser):
     is_active = models.BooleanField(default=False)
     is_superadmin = models.BooleanField(default=False)
     
-<<<<<<< HEAD
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['first_name','last_name','username']
     
     objects = MyAccountManager()
     
-=======
-    
-    USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['first_name','last_name','username']
-    
->>>>>>> bd465a1fa3ab93d213167399424e2fca0090747d
     def __str__(self):
         return self.email
     
